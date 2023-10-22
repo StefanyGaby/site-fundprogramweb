@@ -1,0 +1,117 @@
+/* padrão da página*/
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* corpo da página */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Botões no cabeçalho */
+header button {
+    background-color: #000000; /* Cor de fundo dos botões */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+
+
+button:hover {
+    background-color: #555; /* Cor de fundo do botão quando destacar */
+}
+
+/* Botões de projetos */
+.botaoprojetos {
+
+    background-color: #ffff; /* Cor de fundo dos botões da seção projetos*/
+    color: #000000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    margin: 20px 0; 
+    font-size: 20px; 
+    text-align: center; 
+    display: block; 
+    width: 25%; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+/* Estilizar o hover para os botões de projetos */
+.botaoprojetos:hover { 
+background-color: #555;
+}
+
+/* seções */
+section {
+    background-color: #edf3f7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* títulos das seções */
+h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* formulário de contato */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #000000;
+}

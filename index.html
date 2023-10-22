@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olá, meu nome é Stefany. Seja bem-vindo ao meu portfólio!</title>
+</head>
+<body>
+
+    <!-- Cabeçalho e botões de navegação -->
+    <header>
+        <h1>Olá, meu nome é Stefany. Seja bem-vindo ao meu portfólio!</h1>
+   
+
+     <ul>
+        <button><a href="#sobre">Sobre mim</a></button>
+        <button><a href="#formacao">Formação Educacional</a></button>
+        <button><a href="#portfolio">Meus Projetos</a></button>
+        <button><a href="#contato">Entre em contato comigo</a></button>
+     </ul>
+    </header>
+
+<!-- Função para rolar a página -->
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    </script>
+
+<!-- Seções -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá, meu nome é Stefany Gabrielle e em meu período de adolescência desenvolvi uma grande paixão pela área de tecnologia e inovação. Desde criança sempre fui uma pessoa curiosa e isso só me motivou a ingressar na área. Atualmente, estou em processo de formação na área de tecnologia e estou amando cada minuto, incluindo cada um dos desafios de aprendizado. Minha jornada nessa área começou há poucos anos, mas estou sempre em busca de novos conhecimentos e cursos nos mais diversos campos de tecnologia, como linguagens de programação, desenvolvimento web e conceitos de design. Estou cursando Análise e Desenvolvimento de Sistemas, em busca de uma base sólida para minha carreira. Além disso, tento sempre evoluir minhas habilidades por meio de cursos e treinamentos. Acredito que a tecnologia é a chave para o nosso futuro, e me aprimorar cada vez mais para fazer parte dessas mudanças que virão. Além da tecnologia, tenho vários outros interesses, como livros, séries e sou apaixonada pela cultura japonesa. Cada um desses hobbies me inspira também no âmbito profissional, ajudando com a criatividade e o surgimento de ideias. Estou adquirindo conhecimentos em várias linguagens de programação e ferramentas de desenvolvimento. Minhas habilidades incluem conhecimento na linguagem Python e Java, além de HTML e CSS. Meu conhecimento em modelagem de banco de dados também vem crescendo de forma satisfatória. Estou sempre disposta e preparada para enfrentar novos desafios e continuar evoluindo junto com esse campo que não para de crescer. Estou ansiosa com a oportunidade de trabalhar em projetos e poder fazer a diferença utilizando essa tão amada e inovadora área. Obrigada por ler meu portfólio, mal posso esperar para compartilhar novas experiências tecnológicas!</p>
+    </section>
+    <section id="formacao">
+        <h2>Formação Educacional</h2>
+        <p>Estou concluindo meu primeiro ano em Análise e Desenvolvimento de Sistemas pela Uninter. Procuro sempre fazer cursos por fora também, em plataformas como a onebitcode e a Dio. Além do Português do Brasil, que é minha língua nativa, estou agora cursando Inglês para melhor evolução na vida profissional.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Meus Projetos</h2>
+        <p>Aqui estão alguns dos meus projetos anteriores:</p>
+        <ul>
+            <button class="botaoprojetos"><a href="https://github.com/StefanyGaby/Fundamento-de-Dw/tree/main/cofrinho/cofrinho">Projeto 1</a></button> 
+            <button class="botaoprojetos"><a href="https://github.com/StefanyGaby/Fundamento-de-Dw/blob/main/Teste%201.sql">Projeto 2</a></button>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
